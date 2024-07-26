@@ -1,0 +1,13 @@
+{
+  "name": "TvMaze",
+  "displayName": "TvMaze",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "15dd6b37-f996-4d69-a917-b3aaa48c971f"
+      }
+    },
+    "owner": "nidhishcu",
+    "slug": "popcornhub"
+  }
+}
