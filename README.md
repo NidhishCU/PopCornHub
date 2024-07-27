@@ -10,7 +10,7 @@ First, you will need to start **Metro**, the JavaScript _bundler_ that ships _wi
 
 # Working
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lxl0NGnljPI?si=Mhqbvf7vP_dDa9J_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/Lxl0NGnljPI/0.jpg)](https://www.youtube.com/watch?v=Lxl0NGnljPI)
 
 
 
