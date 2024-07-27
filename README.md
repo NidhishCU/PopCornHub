@@ -1,102 +1,118 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# PopCornHub
 
-# Getting Started
+PopCornHub is a React Native application that leverages the [TVMaze API](https://www.tvmaze.com/) to provide detailed information on TV shows, anime, movies, and OTT shows. The app features a Netflix-inspired dark UI with a focus on user-friendly navigation and comprehensive content display.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- **Splash Screen**: A visually appealing splash screen that greets users upon launching the app.
+- **Home Screen**: Displays a grid view of shows, showcasing a list of popular and trending content.
+- **Details Screen**: Provides detailed information about a selected show, including a banner image, summary, genre, release date, and additional details.
+- **Search Functionality**: A search bar that allows users to search for shows by name. The search results are displayed in a list view, with each item linking to its respective details page.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Working Click on the Image
 
-# Working
+<a href="https://www.youtube.com/watch?v=Lxl0NGnljPI" target="_blank">
+    <img src="https://github.com/user-attachments/assets/your-custom-thumbnail.jpg" alt="Watch the video" width="560" height="315" />
+</a>
 
-[![Watch the video](https://img.youtube.com/vi/Lxl0NGnljPI/0.jpg)](https://www.youtube.com/watch?v=Lxl0NGnljPI)
+## Technologies Used
+
+- **React Native**: For building the mobile application.
+- **TVMaze API**: To fetch data about TV shows, movies, and OTT content.
+- **Dark UI Theme**: Inspired by Netflix, for a modern and sleek user interface.
+
+## Screenshots
+
+![Splash Screen](https://github.com/user-attachments/assets/a9b62e74-6684-42e0-8e84-63f9c0bb77dc)
+
+![Home Screen](https://github.com/user-attachments/assets/ae2fd9f6-6635-4083-9336-29d4d48d6f0a)
+
+![Details Screen](https://github.com/user-attachments/assets/c4473bb7-0382-4c53-9795-01f2e2b919f3)
+
+![Search Results](https://github.com/user-attachments/assets/cc1431a3-cc7a-42cd-8318-c62c1c5b12fb)
+
+![Screenshot 2024-07-26 235615](https://github.com/user-attachments/assets/8a8afcc4-3edc-4cc9-bbb2-5062ce2b62e7)
 
 
 
+## Getting Started
 
-# Output
+To get started with PopCornHub:
 
-![Screenshot 2024-07-26 235559](https://github.com/user-attachments/assets/39b2351b-aedd-4a2f-92ba-b7c209615327)
-![Screenshot 2024-07-26 235439](https://github.com/user-attachments/assets/813070e6-fd09-4247-892a-46d179b137bd)
-![Screenshot 2024-07-26 235516](https://github.com/user-attachments/assets/9f33faa1-e725-4a7f-92ec-2ebbb7f343ef)
-![Screenshot 2024-07-26 235530](https://github.com/user-attachments/assets/505c376c-519b-4c45-be76-3302be199561)
-![Screenshot 2024-07-26 235615](https://github.com/user-attachments/assets/e500185a-2e20-4994-b327-6268ec23e06d)
+1. Clone the repository:
 
+    ```bash
+    git clone https://github.com/yourusername/popcornhub.git
+    ```
 
+2. Navigate to the project directory:
 
+    ```bash
+    cd popcornhub
+    ```
 
+3. Install dependencies:
 
+    ```bash
+    npm install
+    ```
 
+    or
 
+    ```bash
+    yarn install
+    ```
 
+4. Start the Metro server:
 
-To start Metro, run the following command from the _root_ of your React Native project:
+    ```bash
+    npm start
+    ```
 
-```bash
-# using npm
-npm start
+    or
 
-# OR using Yarn
-yarn start
-```
+    ```bash
+    yarn start
+    ```
 
-## Step 2: Start your Application
+5. Run the app on your emulator or physical device:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+    - For Android:
 
-### For Android
+        ```bash
+        npm run android
+        ```
 
-```bash
-# using npm
-npm run android
+        or
 
-# OR using Yarn
-yarn android
-```
+        ```bash
+        yarn android
+        ```
 
-### For iOS
+    - For iOS:
 
-```bash
-# using npm
-npm run ios
+        ```bash
+        npm run ios
+        ```
 
-# OR using Yarn
-yarn ios
-```
+        or
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+        ```bash
+        yarn ios
+        ```
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Contributing
 
-## Step 3: Modifying your App
+Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or fixes.
 
-Now that you have successfully run the app, let's modify it.
+## License
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Acknowledgements
 
-## Congratulations! :tada:
+- [TVMaze API](https://www.tvmaze.com/) for providing comprehensive TV show data.
+- [React Native](https://reactnative.dev) for the framework used to build this app.
 
-You've successfully run and modified your React Native App. :partying_face:
+Feel free to check out the project and provide feedback or suggestions!
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
