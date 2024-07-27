@@ -11,12 +11,11 @@ First, you will need to start **Metro**, the JavaScript _bundler_ that ships _wi
 # Working
 
 [![Watch the video](https://img.youtube.com/vi/Lxl0NGnljPI/0.jpg)](https://www.youtube.com/watch?v=Lxl0NGnljPI)
-Click Here
 
 
 
 
-#Output
+# Output
 
 ![Screenshot 2024-07-26 235559](https://github.com/user-attachments/assets/39b2351b-aedd-4a2f-92ba-b7c209615327)
 ![Screenshot 2024-07-26 235439](https://github.com/user-attachments/assets/813070e6-fd09-4247-892a-46d179b137bd)
