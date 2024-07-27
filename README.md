@@ -17,6 +17,11 @@ First, you will need to start **Metro**, the JavaScript _bundler_ that ships _wi
 
 
 
+#Working
+
+![mobile](https://github.com/user-attachments/assets/8de7f5c9-2a1c-41c5-9656-79e124ff961d)
+
+
 
 
 
