@@ -11,9 +11,7 @@ PopCornHub is a React Native application that leverages the [TVMaze API](https:/
 
 ## Working Click on the Image
 
-<a href="https://www.youtube.com/watch?v=Lxl0NGnljPI" target="_blank">
-    <img src="https://github.com/user-attachments/assets/your-custom-thumbnail.jpg" alt="Watch the video" width="560" height="315" />
-</a>
+[![Watch the video](https://img.youtube.com/vi/Lxl0NGnljPI/0.jpg)](https://www.youtube.com/watch?v=Lxl0NGnljPI)
 
 ## Technologies Used
 
