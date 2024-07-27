@@ -10,7 +10,7 @@ First, you will need to start **Metro**, the JavaScript _bundler_ that ships _wi
 
 # Working
 
-<img src="https://github.com/user-attachments/assets/8de7f5c9-2a1c-41c5-9656-79e124ff961d" alt="mobile" width="200" height="400" />
+<img src="https://github.com/user-attachments/assets/8de7f5c9-2a1c-41c5-9656-79e124ff961d" alt="mobile" width="300" height="600" />
 
 
 
